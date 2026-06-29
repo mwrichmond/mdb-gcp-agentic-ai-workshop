@@ -5,10 +5,7 @@
    mkdir -p adk_agent_mdb_gcp
    cd adk_agent_mdb_gcp
    ```
-   b. Create and activate a virtual environment:
-
-      Install uv (if needed)
-   `
-   brew install uv
-   `
+   b. Create and activate a virtual environment (this workshop will use the uv python package manager)
+   
+   ```brew install uv```
    
