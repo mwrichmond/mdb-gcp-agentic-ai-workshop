@@ -10,8 +10,10 @@ Windows syntax will not be provided.
 
 - A MongoDB Atlas cluster - an M0 (free) tier on GCP (try to use the same region that your Google Cloud organization uses)
 - Access to Google Cloud organization where you have permissions to create a new Project
+- Basic familiarity with Python
+- Be comfortable using different CLIs 
 
-Us
+
 
 | Software | Version  | Validate |
 | -------- | -------- | -------- |
@@ -27,7 +29,53 @@ Unless you have an IDE that you can't live without, I would do one of two things
 
 
 
-Enable required Google Cloud APIs
+### Enable required Google Cloud APIs
+
+#### 1.  Install the Google Cloud CLI (gcloud)
+If you already have this installed skip to step 2.   Otherwise, open a terminal window and execute the command below.  The brew update
+may take a while to run.
+
+<pre>
+brew update
+brew install --cask gcloud-cli
+</pre>
+```text
+ᴜsᴇ ᴄᴏᴅᴇ ᴡɪᴛʜ ᴄᴀᴜᴛɪᴏɴ.
+```
+
+Validate the gcloud CLI is successfully installed.
+
+<pre>
+gcloud -- version
+</pre>
+```text
+ᴜsᴇ ᴄᴏᴅᴇ ᴡɪᴛʜ ᴄᴀᴜᴛɪᴏɴ.
+```
+You should see output similar to what is shown below.
+<pre>
+Google Cloud SDK 575.0.1
+bq 2.1.33
+bundled-python3-unix 3.14.5
+core 2026.07.07
+gcloud-crc32x 1.0.0
+gsutil 5.37
+</pre>
+
+Open a terminal window and authenticate to Google Cloud.  The command below will open a browser window and ask you to pick a Google account
+to use.  When you have successfully authenticated, you can close the browser window and return to the terminal.
+
+<pre>
+gcloud auth login
+</pre>
+
+```text
+ᴜsᴇ ᴄᴏᴅᴇ ᴡɪᴛʜ ᴄᴀᴜᴛɪᴏɴ.
+```
+
+
+
+
+
 
 <pre>
 gcloud services enable aiplatform.googleapis.com
