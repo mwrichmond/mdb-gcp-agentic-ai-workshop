@@ -71,12 +71,7 @@ gcloud auth login
 ```text
 ᴜsᴇ ᴄᴏᴅᴇ ᴡɪᴛʜ ᴄᴀᴜᴛɪᴏɴ.
 ```
-
-
-
-
-
-
+Fortunately we can enable all of the APIs we need with one command.
 <pre>
 gcloud services enable aiplatform.googleapis.com
 </pre>
