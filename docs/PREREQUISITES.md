@@ -1,7 +1,7 @@
 
-# "Agentic AI with MongoDB and Google Cloud" workshop
+## "Agentic AI with MongoDB and Google Cloud" workshop
 
-## About
+### About
 <p>This workshop was built to provide a 150 level of knowledge and hands on experience for anyone wanting to build Agents using Google ADK,
 MongoDB Atlas and Mongo MCP Server.&ensp;&ensp;It is a mixture of content (slides) and hands on exercises (labs).&ensp;&ensp;Upon completion 
 of this, users should have a good working knowledge of - and hands on experience with - building a single agent prototype that utilizes a 
@@ -10,8 +10,8 @@ public API, Google Search and a MongoDB Atlas database as its tools.</p>
 NOTE:&nbsp;&nbsp;The commands in this repo are OSX (Tahoe 26.4) but should work on any current Linux distribution (Unbuntu, Fedora, Debian) or 
 Windows Powershell.  Windows syntax will not be provided
 
-## Prerequsites
-### General
+### Prerequsites
+#### General
 
 - A MongoDB Atlas cluster - an M0 (free) tier on GCP (try to use the same region that your Google Cloud organization uses)
 - Access to Google Cloud organization where you have permissions to create a new Project
