@@ -19,6 +19,7 @@ mkdir -p base-ai-agent-adk
 cd base-ai-agent-adk
 ```
   
-<h4>2.&emsp;Set up a virtual Python environment</h4>
+<h4>2.&emsp;Create and activate a virtual Python environment</h4>
 
-This lab uses the uv pacakge manager for Python.  
+This lab uses the uv pacakge manager for Python.
+
