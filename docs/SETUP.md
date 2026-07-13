@@ -1,23 +1,21 @@
 
-<h2>LAB SETUP instructions</h2>
-<sub>This text is smaller.</sub>
-### use these for the "Build an AI Agent with Google ADK and MongoDB" workshop
+<h2>Lab setup instructions</h2>
 
-## 1. Create a Python virtual environment
-   NOTE: the project directory can be anywhere in your OSX, Linux or Windows file structure.  For simplicity's sake, you might
-   just want to create this within your users HOME directory.
+<div>*** <em><strong>IMPORTANT</strong></em> *** <br/>
+If you have not already completed the steps in <a href="PREREQUISITES.md">PREREQUISITES.md</a> do that now before continuing here.</div>
+
+
+### 1. Create a Python project directopry
+The project directory can be anywhere in your OSX, Linux or Windows file structure.  For simplicity's sake, you mightjust want to create 
+this within your users HOME directory.
    
-   a. Create project directory and navigate into it:
+Create project directory and navigate into it.  You are free to use any name you like for the project directory but all of the slides as
+well as the commands in the workshop will refer to base-ai-agent-adk
    ```
    mkdir -p base-ai-agent-adk
    cd base-ai-agent-adk
    ```
-   b. Create and activate a Python 3.12+ virtual environment (this workshop will use the uv python package manager) 
-   
-   ```
-      brew upbrade
-      brew install uv
-   ```
+  
    
 ### Set up a virtual Python environment
 
