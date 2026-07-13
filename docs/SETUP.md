@@ -7,7 +7,7 @@ If you have not already completed the steps in <a href="PREREQUISITES.md">PREREQ
 
 ### Create a Python virtual environment
 
-<h4>1. Create a Python project directory</h4>
+<h4>1.&emsp;Create a Python project directory</h4>
 The project directory can be anywhere in your file system structure.  For simplicity's sake, you mightjust want to create this within your
 users HOME directory.
 <br/>  
@@ -18,6 +18,6 @@ mkdir -p base-ai-agent-adk
 cd base-ai-agent-adk
 ```
   
-<h4>2. Set up a virtual Python environment</h4>
+<h4>2.&emsp;Set up a virtual Python environment</h4>
 
 This lab uses the uv pacakge manager for Python.  
