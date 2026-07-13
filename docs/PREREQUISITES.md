@@ -51,7 +51,6 @@ brew --version
 ᴜsᴇ ᴄᴏᴅᴇ ᴡɪᴛʜ ᴄᴀᴜᴛɪᴏɴ.
 ```
 
-
 <h4>2.&emsp;Install uv (Python package manager)</h4>
 If you have already install this or prefer to use pip/pip3 then skip to step 2.&emsp;Otherwise, open a terminal window and execute the commands below.
 <pre>
@@ -63,8 +62,6 @@ uv --version
 ```text
 ᴜsᴇ ᴄᴏᴅᴇ ᴡɪᴛʜ ᴄᴀᴜᴛɪᴏɴ.
 ```
-
-### Enable required Google Cloud APIs
 
 <h4>3.&emsp;Install the Google Cloud CLI (gcloud)</h4>
 If you already have this installed skip to step 2.   Otherwise, open a terminal window and execute the command below.  The brew update
@@ -96,7 +93,8 @@ gcloud-crc32x 1.0.0
 gsutil 5.37
 </pre>
 
-<h4>2.&emsp;Authenticate to Google Cloud and enable the required APIs</h4>
+### Enable required Google Cloud APIs
+<h4>1.&emsp;Authenticate to Google Cloud</h4> 
 <p>
 Open a terminal window and authenticate to Google Cloud.&emsp;The command below will open a browser window and ask you to pick a Google account
 to use.&emsp;When you have successfully authenticated, you can close the browser window and return to the terminal.
@@ -114,9 +112,12 @@ Your current project is [None].  You can change this settings by running:
 gcloud config set project PROJECT_ID
 </pre>
 
-Follow the command syntax above to set the PROJECT_ID before continuing.
+Follow the gcloud command syntax above to set the PROJECT_ID before continuing.
 
-All of the Google Cloud APIs that we need can be enabled with one command.
+<h4>2.&nbsp;Enable the required APIs</h4>
+<p>
+All of the Google Cloud APIs that we need can be enabled with one command.j
+</p>
 <pre>
 gcloud services enable aiplatform.googleapis.com
 </pre>
@@ -127,9 +128,7 @@ gcloud services enable aiplatform.googleapis.com
 ```
 It may take a few minutes to enable all the APIs (there are 30+) 
 
-### Set up a virtual Python environment
 
-This lab uses the uv pacakge manager for Python.  
 
 
 
