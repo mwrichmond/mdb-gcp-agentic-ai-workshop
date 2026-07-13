@@ -19,3 +19,6 @@
       brew install uv
    ```
    
+### Set up a virtual Python environment
+
+This lab uses the uv pacakge manager for Python.  
