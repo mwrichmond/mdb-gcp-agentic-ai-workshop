@@ -52,7 +52,7 @@ brew --version
 ```
 
 <h4>2.&emsp;Install uv (Python package manager)</h4>
-If you have already install this or prefer to use pip/pip3 then skip to step 2.&emsp;Otherwise, open a terminal window and execute the commands below.
+    If you have already install this or prefer to use pip/pip3 then skip to step 2.&emsp;Otherwise, open a terminal window and execute the commands below.
 <pre>
 brew update
 brew install uv
