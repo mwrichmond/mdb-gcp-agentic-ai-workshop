@@ -1,0 +1,5 @@
+# Step 1: Ignore everything inside the specific target folders
+my-folder/sub-folder/*
+
+# Step 2: Allow the sub-folder itself to be tracked by Git
+!my-folder/sub-folder/
