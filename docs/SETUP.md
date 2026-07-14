@@ -40,3 +40,17 @@ need to reactiveate the virtual environment.</p>
 ```
 uv pip install google-adk
 ```
+<p>This will install a lot of packages so a first time installation may take a few minutes.&emsp;When the install is complete, validate
+that the ADK CLI is working.</p>
+
+```
+adk --version
+```
+
+<p>You should see output similar to what is shown below.</p>
+<pre>
+  adk, version 2.4.0
+</pre>
+
+This completes the prerequisites and setup instructions for the "Building Agentic AI with MongoDB and Google Cloud workshop".
+
