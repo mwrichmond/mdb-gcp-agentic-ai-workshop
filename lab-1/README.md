@@ -6,11 +6,15 @@
 
 <div><p>If you followed the naming suggested in <a href="SETUP.md">SETUP.md</a> the directory should be <em>base-ai-agent-adk</em>.</p></div>
 
-
 ```
-cd base-ai-agent-adk
+cd base_ai_agent_adk
 ```
   
-<h4>2.&emsp;Create and activate a virtual Python environment</h4>
+<h4>2.&emsp;Create an agent named <em>basic_agent</em>.</h4>
 
-<p>This lab uses the uv package manager for Python.&emsp;If are using venv, skip the uv command and use the python command..</p>
+<p>From the <em>base_ai_agent_adk</em> directory, execute the command below.</p>
+
+```
+adk create basic_agent
+```
+
