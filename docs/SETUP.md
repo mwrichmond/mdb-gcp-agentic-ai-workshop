@@ -9,7 +9,7 @@ If you have not already completed the steps in <a href="PREREQUISITES.md">PREREQ
 
 <h4>1.&emsp;Create a Python project directory</h4>
 
-<p>The project directory can be anywhere in your file system structure.&emsp;For simplicity's sake, you mightjust want to create this within your
+<p>The project directory can be anywhere in your file system structure.&emsp;For simplicity's sake, you might want to create this within your
 users HOME directory.
 
 Create project directory and navigate into it.&emsp;You are free to use any name you like for the project directory but all of the slides as
