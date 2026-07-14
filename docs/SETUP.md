@@ -15,29 +15,28 @@ users HOME directory.
 Create project directory and navigate into it.&emsp;You are free to use any name you like for the project directory but all of the slides as
 well as the commands in the workshop will use the name base-ai-agent-adk.</p>
 ```
-mkdir -p base-ai-agent-adk
-cd base-ai-agent-adk
+mkdir -p base_ai_agent_adk
+cd base_ai_agent_adk
 ```
   
 <h4>2.&emsp;Create and activate a virtual Python environment</h4>
 
-<p>This lab uses the uv package manager for Python.&emsp;If are using venv, skip the uv command and use the python command..</p>
+<p>This lab uses the uv package manager for Python.</p>
 
-<pre>
+```zsh
 uv venv --python 3.12
 source .venv/bin/activate
-</pre>
-
-```text
-ᴜsᴇ ᴄᴏᴅᴇ ᴡɪᴛʜ ᴄᴀᴜᴛɪᴏɴ.
 ```
+<p>You should see a new prompt indicating you are virtual environment is active.&emsp;Note: If you exit the terminal window, you will 
+need to reactiveate the virtual environment.</p>
+
 <pre>
-python -m venv .venv
-source .venv/bin/activate
+(base_ai_agent_adk) ~/base_ai_agent_adk $
 </pre>
 
-```text
-ᴜsᴇ ᴄᴏᴅᴇ ᴡɪᴛʜ ᴄᴀᴜᴛɪᴏɴ.
+
+<h4>3.&emsp;Install the Google ADK package</h4>
+
 ```
-
-</pre>
+uv pip install google-adk
+```
