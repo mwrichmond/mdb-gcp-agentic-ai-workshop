@@ -13,7 +13,7 @@ If you have not already completed the steps in <a href="PREREQUISITES.md">PREREQ
 users HOME directory.
 
 Create project directory and navigate into it.&emsp;You are free to use any name you like for the project directory but all of the slides as
-well as the commands in the workshop will use the name base-ai-agent-adk.</p>
+well as the commands in the workshop will use the name base_ai_agent_adk.</p>
 ```
 mkdir -p base_ai_agent_adk
 cd base_ai_agent_adk
