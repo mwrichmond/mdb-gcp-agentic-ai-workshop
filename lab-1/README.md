@@ -18,3 +18,18 @@ cd base_ai_agent_adk
 adk create basic_agent
 ```
 
+<pre>
+Choose a model for the root agent:
+1. gemini-3.5-flash
+2. Other models (fill later)
+Choose model (1, 2): 
+</pre>
+
+Type 1 and press [ENTER]
+
+<pre>
+1. Google AI
+2. Vertex AI
+3. Login with Google
+Choose a backedn: (1, 2, 3):
+</pre>
