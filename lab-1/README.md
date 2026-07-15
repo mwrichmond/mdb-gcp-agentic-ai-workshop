@@ -1,4 +1,4 @@
-## Lab 1 instructions
+ ## Lab 1 instructions
 
 ### Create the base agent using ADK
 
@@ -32,4 +32,24 @@ Type 1 and press [ENTER]
 2. Vertex AI
 3. Login with Google
 Choose a backedn: (1, 2, 3):
+</pre>
+
+Type 2 and press [ENTER]
+
+
++ You need an existing Google Cloud acounts and project, check out this link for details:}
+https://google.github.io/adk-docs/get-started/quickstart/#gemini---google-cloud-vertex-ai}
+
+Enter Google Cloud project ID [<your-Project-ID>]
+Enter Google Cloud region [us-central1]
+
+
+
+Agent created in /Users/mattrichmond/base_ai_agent_adk/basic_agent:
+- .env
+- .gitignore
+- __init__.py
+- agent.py
+
+WARNING:  Secrets (like GOOGLE_API_KEY) are stored in .env.
 </pre>
