@@ -47,10 +47,6 @@ Open a terminal window on OSX and execute the command below:
 brew --version
 </pre>
 
-```text
-ᴜsᴇ ᴄᴏᴅᴇ ᴡɪᴛʜ ᴄᴀᴜᴛɪᴏɴ.
-```
-
 <h4>2.&emsp;Install uv (Python package manager)</h4>
     If you have already install this or prefer to use pip/pip3 then skip to step 2.&emsp;Otherwise, open a terminal window and execute the commands below.
 <pre>
@@ -80,9 +76,7 @@ Validate the gcloud CLI is successfully installed.
 <pre>
 gcloud -- version
 </pre>
-```text
-ᴜsᴇ ᴄᴏᴅᴇ ᴡɪᴛʜ ᴄᴀᴜᴛɪᴏɴ.
-```
+
 You should see output similar to what is shown below.
 <pre>
 Google Cloud SDK 575.0.1
