@@ -74,7 +74,7 @@ brew install --cask gcloud-cli
 Validate the gcloud CLI is successfully installed.
 
 <pre>
-gcloud -- version
+gcloud --version
 </pre>
 
 You should see output similar to what is shown below.
