@@ -130,7 +130,7 @@ base_ai_agent_adk
     └── agent.py
 </pre>
 <br/>
-<div>So we need to launch the agent from <em>base_ai_agent_ak</em>.</div>
+<div>So we need to launch the agent from the <em>base_ai_agent_adk</em>&nbsp;directory.</div>
 <br/>
 
 ```
@@ -138,3 +138,25 @@ cd ..
 adk web
 ```
 
+<div>
+You will see some INFO messages appear as the agent launches.  After a few seconds, the message below should be displayed:
+</div>
+<br/>
+<pre>
++-----------------------------------------------------------------------------+
+| ADK Web Server started                                                      |
+|                                                                             |
+| For local testing, access at http://127.0.0.1:8000.                         |
++-----------------------------------------------------------------------------+
+</pre>
+<div>
+Open a browser window at the address above to test the agent.&emsp;IMPORTANT: do NOT close the terminal window or you will terminate the web
+server.  Messages will continue to be displayed in the terminal window as you interact with the agent.  
+</div>
+<div>
+<br/>
+You should see a screen similar to the one shown below.
+<br/><br/>
+<img width="981" height="490" alt="image" src="https://github.com/user-attachments/assets/18952dfa-2fc9-41f3-8364-61b764653b2e" />
+
+</div>
