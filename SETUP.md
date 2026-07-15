@@ -54,3 +54,5 @@ adk --version
 
 This completes the prerequisites and setup instructions for the "Building Agentic AI with MongoDB and Google Cloud workshop".
 
+Do not proceed to lab-1 until you are actually at the workshop and instructed to do so.
+
