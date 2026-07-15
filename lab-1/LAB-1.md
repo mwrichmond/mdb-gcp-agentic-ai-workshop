@@ -117,5 +117,24 @@ root_agent = Agent(
 </pre>
 <br/>
 
+<h4>4.&emsp;Run the agent with a web UI</h4>
 
+Remember that all ADK commands need to be executed from the parent directory of the agent. &emsp;  Our file structure looks like this:
+<pre>
+base_ai_agent_adk
+└── basic_agent
+    ├── __init__.py
+    ├── __pycache__
+    ├── .env
+    ├── .gitignore
+    └── agent.py
+</pre>
+<br/>
+<div>So we need to launch the agent from <em>base_ai_agent_ak</em>.</div>
+<br/>
+
+```
+cd ..
+adk web
+```
 
