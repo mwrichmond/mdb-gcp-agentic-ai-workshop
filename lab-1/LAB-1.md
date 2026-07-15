@@ -40,8 +40,8 @@ Type 2 and press [ENTER]
 You need an existing Google Cloud account and project, check out this link for details:
 https://google.github.io/adk-docs/get-started/quickstart/#gemini---google-cloud-vertex-ai
 
-Enter Google Cloud project ID [<your-project-ID>]
-Enter Google Cloud region [us-central1]
+Enter Google Cloud project ID [&lt;your-project-ID&gt;]
+Enter Google Cloud region [&lt;your-region&gt;]
 </pre>
 
 The values for project ID and region should be auto-filled.&emsp;If they are not add you values and press [ENTER] afer
