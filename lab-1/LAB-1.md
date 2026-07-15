@@ -37,10 +37,10 @@ Choose a backend: (1, 2, 3):
 Type 2 and press [ENTER]
 
 <pre>
-You need an existing Google Cloud acounts and project, check out this link for details:
+You need an existing Google Cloud account and project, check out this link for details:
 https://google.github.io/adk-docs/get-started/quickstart/#gemini---google-cloud-vertex-ai
 
-Enter Google Cloud project ID [<your-Project-ID>]
+Enter Google Cloud project ID [<your-project-ID>]
 Enter Google Cloud region [us-central1]
 </pre>
 
