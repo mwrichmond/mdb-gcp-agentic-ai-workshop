@@ -44,8 +44,10 @@ Enter Google Cloud project ID [<your-Project-ID>]
 Enter Google Cloud region [us-central1]
 </pre>
 
-
-
+The values for project ID and region should be auto-filled.&emsp;If they are not add you values and press [ENTER] afer
+each entry.
+<br/><br/>
+<pre>
 Agent created in /Users/mattrichmond/base_ai_agent_adk/basic_agent:
 - .env
 - .gitignore
