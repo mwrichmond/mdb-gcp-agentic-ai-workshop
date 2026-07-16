@@ -15,6 +15,7 @@ Windows Powershell.  Windows syntax will not be provided
 
 - A MongoDB Atlas cluster - an M0 (free) tier on GCP (try to use the same region that your Google Cloud organization uses)
 - Access to Google Cloud organization where you have permissions to create a new Project
+- An account with Currency Freaks (a currency exchange rates API; there is a free tier)
 - Basic familiarity with Python
 - Be comfortable using a CLI
 - A source code text editor.&ensp;&ensp;Use vi or vim (built-in to OSX / Linux), a code editor like Atom, Nova, CodeEdit) or your
