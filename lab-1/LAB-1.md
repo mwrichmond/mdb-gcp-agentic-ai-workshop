@@ -12,7 +12,7 @@ cd adk_agents
   
 <h4>2.&emsp;Create an agent named <em>basic_agent</em>.</h4>
 
-<div>From the <em>adk_agents</em> directory, execute the command below.&emsp;</div>The command script will create a sub-directory - <em>basic_agent</em> - and
+<div>From the <em>adk_agents</em> directory, execute the command below.&emsp;</div>The command script will create a sub-directory ( <em>basic_agent</em> ) and
 create several files within in.
 
 ```
