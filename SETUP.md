@@ -57,9 +57,20 @@ adk --version
 
 <h4>1.&emsp;Create Currency Freaks API account.</h4>
 
-<div>Navigate to the Currency Freaks web page at <a href="PREREQUISITES.md">https://currencyfreaks.com</a>&emsp; and create an account.</div>
+<div>Navigate to the Currency Freaks web page at <a href="PREREQUISITES.md">https://currencyfreaks.com</a>&emsp;and create an account. 
+  Choose the Developer plan (it does not allow you to change the base currency and is limited to 1000 requests / month but it is free).
+</div>
+</br>
+  Create an API key and copy it.
+</div>
+Test using the cURL command below.
 <br/>
 
+```
+curl 'https://api.currencyfreaks.com/v2.0/rates/latest?apikey=YOUR_APIKEY'
+```
+
+<br/>
 
 This completes the prerequisites and setup instructions for the "Building Agentic AI with MongoDB and Google Cloud workshop".
 
