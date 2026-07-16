@@ -52,6 +52,15 @@ adk --version
   adk, version 2.4.0
 </pre>
 
+
+### Create an API key with CurrencyFreaks
+
+<h4>1.&emsp;Create Currency Freaks API account.</h4>
+
+<div>Navigate to the Currency Freaks web page at <a href="PREREQUISITES.md">https://currencyfreaks.com</a>&emsp; and create an account.</div>
+<br/>
+
+
 This completes the prerequisites and setup instructions for the "Building Agentic AI with MongoDB and Google Cloud workshop".
 
 Do not proceed to lab-1 until you are actually at the workshop and instructed to do so.
