@@ -48,7 +48,7 @@ The values for project ID and region should be auto-filled.&emsp;If they are not
 each entry.
 <br/><br/>
 <pre>
-Agent created in /Users/mattrichmond/base_ai_agent_adk/basic_agent:
+Agent created in /Users/mattrichmond/adk_agents/basic_agent:
 - .env
 - .gitignore
 - __init__.py
