@@ -125,9 +125,3 @@ It may take a few minutes to enable all the APIs (there are 30+)
 
 <div>This completes the general prerequisites section.&emsp;Navigate to <a href="SETUP.md">SETUP.md</a> to complete the specific lab setup.</div>
 
-
-
-
-
-
-
