@@ -15,8 +15,8 @@ users HOME directory.
 Create project directory and navigate into it.&emsp;You are free to use any name you like for the project directory but all of the slides as
 well as the commands in the workshop will use the name base_ai_agent_adk.</p>
 ```
-mkdir -p base_ai_agent_adk
-cd base_ai_agent_adk
+mkdir -p adk_agent
+cd adk_agent
 ```
   
 <h4>2.&emsp;Create and activate a virtual Python environment</h4>
@@ -31,7 +31,7 @@ source .venv/bin/activate
 need to reactiveate the virtual environment.</p>
 
 <pre>
-(base_ai_agent_adk) ~/base_ai_agent_adk $
+(adk_agent) ~/adk_agent $
 </pre>
 
 
