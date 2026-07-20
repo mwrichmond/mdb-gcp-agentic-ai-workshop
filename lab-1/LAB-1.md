@@ -46,7 +46,7 @@ Enter Google Cloud project ID [&lt;your-project-ID&gt;]
 Enter Google Cloud region [&lt;your-region&gt;]
 </pre>
 
-The values for project ID and region should be auto-filled.&emsp;If they are not add you values and press [ENTER] afer
+The values for project ID and region should be auto-filled.&emsp;If they are not add you values and press [ENTER] after
 each entry.
 <br/><br/>
 <pre>
