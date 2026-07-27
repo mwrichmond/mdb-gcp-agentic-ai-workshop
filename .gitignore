@@ -3,3 +3,9 @@ src/*
 
 # Force Git to keep tracking the folder itself
 !src/
+
+# Ignore the contents of the target folder
+src/adk_agents/*
+
+# Force Git to keep tracking the folder itself
+!src/adk_agents/
