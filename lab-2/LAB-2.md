@@ -12,7 +12,7 @@ cd basic_agent
 
 <p>Navigate to <a href="../src/adk_agents/basic_agent/custom_functions.py"><i>custom_functions.py</i></a> in the <i>src</i> directory.
 </p>
-Click the Raw button at the top right to copy the URL
+Click the Raw button at the top right of the code view to open the plain text version.  
 <div>From the <em>adk_agents</em> directory, execute the command below.&emsp;The command script will create a sub-directory ( <em>basic_agent</em> ) and
 create several files within in.</div>
 <br/>
