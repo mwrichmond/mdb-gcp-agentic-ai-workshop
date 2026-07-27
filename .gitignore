@@ -1,1 +1,5 @@
+# Ignore the contents of the target folder
+src/*
 
+# Force Git to keep tracking the folder itself
+!src/
