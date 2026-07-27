@@ -2,13 +2,13 @@
 
 ### Create the base agent using ADK
 
-<h4>1.&emsp;If you are not already there, navigate to the basic_agent directory</h4>
+<h4>1.&emsp;If you are not already there, navigate to the <i>basic_agent</h4>i> directory</h4>
 
 ```
 cd basic_agent
 ```
   
-<h5>2.&emsp;Copy the <em>custom_functions.py</em> file into the <em>basic_agent</em> directory</h5>
+<h4>2.&emsp;Copy the <i>custom_functions.py</i> file into the <i>basic_agent</i> directory</h5>
 
 <div>Navigate to <em>src/adk_agents/basic_agent/custom_functions.py</em>; </div>
 
