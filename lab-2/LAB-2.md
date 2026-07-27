@@ -8,7 +8,9 @@
 cd basic_agent
 ```
   
-<h4>2.&emsp;Create an new file named <em>custom_functions.py</em></h4>
+<h5>2.&emsp;Copy the <em>custom_functions.py</em> file into the <em>basic_agent</em> directory</h5>
+
+
 
 <div>From the <em>adk_agents</em> directory, execute the command below.&emsp;The command script will create a sub-directory ( <em>basic_agent</em> ) and
 create several files within in.</div>
