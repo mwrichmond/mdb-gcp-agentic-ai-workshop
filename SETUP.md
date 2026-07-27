@@ -31,7 +31,7 @@ source .venv/bin/activate
 need to reactiveate the virtual environment.</p>
 
 <pre>
-(adk_agent) ~/adk_agent $
+(adk_agents) ~/adk_agent $
 </pre>
 
 
