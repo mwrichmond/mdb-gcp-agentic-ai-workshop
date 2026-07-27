@@ -1,4 +1,4 @@
-The adk_agents directory acts as a top level Python directory tree to house multiple agents built with Google ADK
+The src directory contains code for multiple agents.  Specific agent project information is stored in sub-directories such as adk_agents
 <pre>
-Source code is stored starting in child directories such as <em>basic_agent</em>
+i.e. The Source code (agent.py) for a specific agent would be stored in a child directory of adk_agents such as <em>basic_agent</em>
 </pre>
