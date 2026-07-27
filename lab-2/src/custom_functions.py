@@ -3,8 +3,7 @@ import os
 # define a function to get exchange rate
 def get_fx_rate(target: str):
     """
-    Fetches the current exchange rate between two currencies.
-    The base currency is USD and cannot be changed.
+    Fetches the current exchange rate between two currencies. The base currency is USD and cannot be changed.
     
     Args:
                 target: The target currency (e.g., "JPY").
