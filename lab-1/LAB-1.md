@@ -39,14 +39,12 @@ Choose a backend: (1, 2, 3):
 Type 2 and press [ENTER]
 
 <pre>
-You need an existing Google Cloud account and project, check out this link for details:
-https://google.github.io/adk-docs/get-started/quickstart/#gemini---google-cloud-vertex-ai
 
 Enter Google Cloud project ID [&lt;your-project-ID&gt;]
 Enter Google Cloud region [&lt;your-region&gt;]
 </pre>
 
-The values for project ID and region should be auto-filled.&emsp;If they are not add you values and press [ENTER] after
+The values for project ID and region should be auto-filled.&emsp;If they are not add your values and press [ENTER] after
 each entry.
 <br/><br/>
 <pre>
@@ -123,7 +121,7 @@ root_agent = Agent(
 
 Remember that all ADK commands need to be executed from the parent directory of the agent. &emsp;  Our file structure looks like this:
 <pre>
-base_ai_agent_adk
+adk_agents
 └── basic_agent
     ├── __init__.py
     ├── __pycache__
@@ -132,7 +130,7 @@ base_ai_agent_adk
     └── agent.py
 </pre>
 <br/>
-<div>So we need to launch the agent from the <em>base_ai_agent_adk</em>&nbsp;directory.</div>
+<div>So we need to launch the agent from the <em>adk_agents</em>&nbsp;directory.</div>
 <br/>
 
 ```
