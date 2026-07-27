@@ -1,4 +1,0 @@
-{
-  "session_service_uri": "postgresql+asyncpg://postgres:secret@localhost:5432/adk_testing",
-  "memory_service_uri": "postgresql+asyncpg://postgres:secret@localhost:5432/adk_testing"
-}
