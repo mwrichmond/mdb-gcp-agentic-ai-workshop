@@ -27,8 +27,8 @@ cd adk_agents
 uv venv --python 3.12
 source .venv/bin/activate
 ```
-<p>You should see a new prompt indicating you are virtual environment is active.&emsp;Note: If you exit the terminal window, you will 
-need to reactiveate the virtual environment.</p>
+<p>You should see a new prompt indicating your virtual environment is active.&emsp;Note: If you exit the terminal window, you will 
+need to reactiveate the virtual environment using the source command.</p>
 
 <pre>
 (adk_agents) ~/adk_agent $
