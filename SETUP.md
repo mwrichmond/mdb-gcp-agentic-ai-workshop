@@ -59,7 +59,8 @@ adk --version
 
 <div>Navigate to the Currency Freaks web page at <a href="PREREQUISITES.md">https://currencyfreaks.com</a>&emsp;and create an account. 
   Choose the Developer plan (it does not allow you to change the base currency and is limited to 1000 requests / month but it is free).
-</div>
+</div><br/>
+<img width="810" height="210" alt="image" src="https://github.com/user-attachments/assets/c1406b36-fb63-4712-8131-3556125e9b25" />
 
 </br>
   Create an API key and copy it.
