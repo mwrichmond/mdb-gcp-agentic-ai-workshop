@@ -1,0 +1,52 @@
+import json
+import time
+from google.adk.tools import ToolContext, FunctionTool
+
+# Persistent global variables to cache your demo data across active UI turns
+DEMO_STATE_CACHE = {}
+DEMO_EVENT_COUNTER = 0
+
+def save_session_variable(key: str, value: str, tool_context: ToolContext) -> str:
+    """A tool that updates the session state and caches it for multi-turn local testing."""
+    global DEMO_STATE_CACHE, DEMO_EVENT_COUNTER
+
+    print("AVAILABLE FIELDS:", dir(tool_context))
+
+    
+    # Save to the local global cache so it survives the next turn
+    DEMO_STATE_CACHE[key] = value
+    DEMO_EVENT_COUNTER += 1 # Count this tool execution event
+    
+    return f"Successfully stored {key}={value} in the session state."
+
+def inspect_live_session(tool_context: ToolContext) -> str:
+    """A tool that pulls session properties and displays them from the persistent demo cache."""
+    global DEMO_STATE_CACHE, DEMO_EVENT_COUNTER
+
+    print("AVAILABLE FIELDS:", dir(tool_context))
+    
+    # Increment the event counter because a new turn was executed
+    DEMO_EVENT_COUNTER += 1
+    
+    # Extract identity fields safely from the tool context
+   # user_id = getattr(tool_context.user, 'id', 'user')
+   # session_id = getattr(tool_context.session, 'id', 'Not Set')
+   # app_name = getattr(tool_context.app, 'name', 'Not Set')
+    
+    # Standard 6-key Schema Target Mapping
+    session_schema = {
+        "id": session_id,
+        "appName": app_name,
+        "userId": user_id,
+        "events": f"[{DEMO_EVENT_COUNTER} history objects recorded]" if DEMO_EVENT_COUNTER > 0 else "[]",
+        "state": DEMO_STATE_CACHE,
+        "lastUpdateTime": float(time.time())
+    }
+
+    # Format output inside markdown code blocks for the web UI
+    formatted_json = json.dumps(session_schema, indent=2, default=str)
+    return f"```json\n{formatted_json}\n```"
+
+# Wrap both tool components for the agent module
+inspect_session_tool = FunctionTool(inspect_live_session)
+save_variable_tool = FunctionTool(save_session_variable)

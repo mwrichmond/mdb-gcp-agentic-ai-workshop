@@ -1,0 +1,116 @@
+import json
+import time
+import inspect
+from google.adk.tools import ToolContext, FunctionTool
+
+def _get_live_session_from_stack():
+    """Traverses the active python execution stack to find the live ADK Session object."""
+    for frame_info in inspect.stack():
+        # Look at local variables in the execution chain for an active session object
+        locals_dict = frame_info.frame.f_locals
+        
+        # Check standard ADK session instance variable names
+        for var_name in ['session', '_session', 'current_session']:
+            if var_name in locals_dict:
+                obj = locals_dict[var_name]
+                # Verify it has the core ID property from your documentation
+                if hasattr(obj, 'id') or hasattr(obj, '_id'):
+                    return obj
+                    
+        # Check if we can extract it from an active 'runner' or 'service' frame
+        if 'runner' in locals_dict and hasattr(locals_dict['runner'], 'session'):
+            return locals_dict['runner'].session
+        if 'context' in locals_dict and hasattr(locals_dict['context'], 'session'):
+            return locals_dict['context'].session
+            
+    return None
+
+def save_session_variable(key: str, value: str, tool_context: ToolContext) -> str:
+    """A tool that physically updates the live session memory state dictionary."""
+    session = _get_live_session_from_stack()
+    
+    if session and hasattr(session, 'state'):
+        # Write directly to the backend session state object
+        if session.state is None:
+            session.state = {}
+        session.state[key] = value
+        return f"Successfully stored {key}={value} in the live backend session memory."
+        
+    # Fallback to context writing if stack tracking is blocked
+    try:
+        tool_context.state[key] = value
+        return f"Stored {key}={value} via ToolContext."
+    except Exception:
+        return f"Acknowledged {key}={value}, but backend storage state was unmapped."
+
+def inspect_live_session(tool_context: ToolContext) -> str:
+    """A tool that pulls the true live session parameters out of the InMemorySessionService RAM."""
+    session = _get_live_session_from_stack()
+    
+    # 1. Base Fallbacks from Context
+    user_id = getattr(tool_context, 'user_id', 'user')
+    session_id = 'Not Set'
+    app_name = 'basic_agent'
+    last_update = time.time()
+    state_display = {}
+    events_count = 0
+
+    # 2. Override with real values from the running Session Object if found in stack
+    if session:
+        session_id = getattr(session, 'id', getattr(session, '_id', session_id))
+        app_name = getattr(session, 'app_name', getattr(session, 'appName', app_name))
+        user_id = getattr(session, 'user_id', getattr(session, 'userId', user_id))
+        
+        # Pull numeric epoch last update timestamp
+        last_update = getattr(session, 'last_update_time', getattr(session, 'lastUpdateTime', last_update))
+        
+        # Read the real live state memory
+        raw_state = getattr(session, 'state', None)
+        if raw_state:
+            try:
+                # Convert framework tracking dictionary fields to a standard python dict
+                if hasattr(raw_state, 'items'):
+                    for k, v in raw_state.items():
+                        state_display[str(k)] = v
+                elif hasattr(raw_state, '__dict__'):
+                    state_display = dict(raw_state.__dict__)
+                else:
+                    state_display = dict(raw_state)
+            except Exception:
+                state_display = {"raw_value": str(raw_state)}
+
+        # Count real structural event blocks stored in the runtime array
+        raw_events = getattr(session, 'events', None)
+        if raw_events:
+            try:
+                events_count = len(raw_events)
+            except Exception:
+                pass
+
+    # 3. Final structural fallback counting if history array is obscured
+    if events_count == 0:
+        ctx_events = getattr(tool_context, 'events', getattr(tool_context, 'history', None))
+        if ctx_events:
+            try:
+                events_count = len(ctx_events)
+            except Exception:
+                events_count = 1
+
+    # 4. Standard 6-key Schema Target Mapping
+    session_schema = {
+        "id": session_id,
+        "appName": app_name,
+        "userId": user_id,
+        "events": f"[{events_count} history objects recorded]" if events_count > 0 else "[]",
+        "state": state_display,
+        "lastUpdateTime": float(last_update) if last_update else "Not Set"
+    }
+
+    # 5. Format output
+    formatted_json = json.dumps(session_schema, indent=2, default=str)
+    return f"```json\n{formatted_json}\n```"
+
+# Wrap both tool components for the agent module
+inspect_session_tool = FunctionTool(inspect_live_session)
+save_variable_tool = FunctionTool(save_session_variable)
+

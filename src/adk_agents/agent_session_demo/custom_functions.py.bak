@@ -1,0 +1,21 @@
+import json
+from google.adk.tools import ToolContext, FunctionTool
+
+def inspect_session_state(tool_context: ToolContext) -> str:
+    """A tool that retrieves and prints the current active session state dictionary."""
+    # ToolContext exposes context properties directly
+    current_state = tool_context.state
+    
+    if current_state is None:
+        return "📋 [CURRENT SESSION STATE]:\nThe state object is empty (None)."
+        
+    # Format the dictionary safely if it exists but is an empty dict {}
+    if not current_state:
+        return "📋 [CURRENT SESSION STATE]:\n{} (Empty dictionary)"
+    
+    # Format the dictionary into clean JSON for clear presentation in the UI
+    try:
+        formatted_json = json.dumps(state_dict, indent=2, default=str)
+        return f"📋 [CURRENT SESSION STATE]:\n{formatted_json}"
+    except Exception as e:
+        return f"📋 [CURRENT SESSION STATE]:\n(Unable to serialize state: {str(e)})\nRaw representation: {repr(current_state)}"
