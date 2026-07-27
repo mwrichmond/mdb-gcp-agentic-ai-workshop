@@ -2,7 +2,7 @@
 
 ### Create the base agent using ADK
 
-<h4>1.&emsp;If you are not already there, navigate to the <i>basic_agent</h4>i> directory</h4>
+<h4>1.&emsp;If you are not already there, navigate to the <i>basic_agent</h4><i> directory</h4>
 
 ```
 cd basic_agent
