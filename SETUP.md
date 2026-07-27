@@ -12,8 +12,8 @@ If you have not already completed the steps in <a href="PREREQUISITES.md">PREREQ
 <p>The project directory can be anywhere in your file system structure.&emsp;For simplicity's sake, you might want to create this within your
 users HOME directory.
 
-Create project directory and navigate into it.&emsp;You are free to use any name you like for the project directory but all of the slides as
-well as the commands in the workshop will use the name adk_agents.</p>
+Create a project directory and navigate into it.&emsp;You are free to use any name you like for the project directory but all of the slides as
+well as the commands in the workshop will refer to <em><strong>adk_agents.</em></strong></p>
 ```
 mkdir -p adk_agents
 cd adk_agents
