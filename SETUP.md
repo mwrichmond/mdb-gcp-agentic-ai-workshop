@@ -13,10 +13,10 @@ If you have not already completed the steps in <a href="PREREQUISITES.md">PREREQ
 users HOME directory.
 
 Create project directory and navigate into it.&emsp;You are free to use any name you like for the project directory but all of the slides as
-well as the commands in the workshop will use the name base_ai_agent_adk.</p>
+well as the commands in the workshop will use the name adk_agents.</p>
 ```
-mkdir -p adk_agent
-cd adk_agent
+mkdir -p adk_agents
+cd adk_agents
 ```
   
 <h4>2.&emsp;Create and activate a virtual Python environment</h4>
@@ -60,6 +60,7 @@ adk --version
 <div>Navigate to the Currency Freaks web page at <a href="PREREQUISITES.md">https://currencyfreaks.com</a>&emsp;and create an account. 
   Choose the Developer plan (it does not allow you to change the base currency and is limited to 1000 requests / month but it is free).
 </div>
+
 </br>
   Create an API key and copy it.
 </div>
