@@ -155,7 +155,7 @@ server.  Messages will continue to be displayed in the terminal window as you in
 </div>
 <div>
 <br/>
-You should see a screen similar to the one shown below.
+Ask the agent a question.  You should see a screen similar to the one shown below.
 <br/><br/>
 <img width="981" height="490" alt="image" src="https://github.com/user-attachments/assets/18952dfa-2fc9-41f3-8364-61b764653b2e" />
 
