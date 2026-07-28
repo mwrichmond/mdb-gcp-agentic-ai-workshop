@@ -18,12 +18,11 @@ CF_API_KEY=<YOUR_CURRENCY_FREAKS_API_KEY>
 
 </p> when completed your file should resemble the one below (the API key will be different)</p>
 
-<code>
-GOOGLE_GENAI_USE_ENTERPRISE=1
+<pre>GOOGLE_GENAI_USE_ENTERPRISE=1
 GOOGLE_CLOUD_PROJECT=matt-richmond
 GOOGLE_CLOUD_LOCATION=us-central1
 CF_API_KEY=9371a7239bbe4164bcac58df4b0867e9
-</code>
+</pre>
 
 <h4>3.&emsp;Copy the <i>custom_functions.py</i> file from the Github repository into the <i>basic_agent</i> directory</h4>
 <br/>
