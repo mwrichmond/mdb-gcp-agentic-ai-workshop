@@ -1,6 +1,6 @@
 ## Lab 2B instructions
 
-### Create a custom Python wrapper function to call native Google Search
+### Create a Python wrapper function to call native Google Search
 
 
 <h4>1.&emsp;If you are not already there, navigate to the <i>basic_agent</i> directory</h4>
