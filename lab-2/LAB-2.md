@@ -49,3 +49,10 @@ drwxr-xr-x@ 12   384 Jul 28 10:35 ../
 -rw-r--r--@  1   679 Jul 28 12:02 custom_functions.py
 </pre>
 
+<h4>4.&emsp;Copy the <i>custom_functions.py</i> file from the Github repository into the <i>basic_agent</i> directory</h4>
+<br/>
+
+```
+curl -O https://raw.githubusercontent.com/mwrichmond/mdb-gcp-agentic-ai-workshop/refs/heads/main/src/adk_agents/basic_agent/custom_functions.py
+```
+<br/>
