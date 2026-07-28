@@ -1,6 +1,6 @@
 from google.adk.agents.llm_agent import Agent
 from google.adk.tools import FunctionTool
-from .custom_functdions import get_fx_rate
+from .custom_functions import get_fx_rate
 
 root_agent = Agent(
     model='gemini-2.5-flash',
