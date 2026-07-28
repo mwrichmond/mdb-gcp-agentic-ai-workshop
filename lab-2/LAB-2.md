@@ -28,8 +28,7 @@ Click the Raw button at the top right of the code view to open the plain text ve
 
 
 
-<div>From the <em>adk_agents</em> directory, execute the command below.&emsp;The command script will create a sub-directory ( <em>basic_agent</em> ) and
-create several files within in.</div>
+
 <br/>
 
 ```
