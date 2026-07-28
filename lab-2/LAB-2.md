@@ -2,6 +2,7 @@
 
 ### Create a custom Python function to call an external API
 
+
 <h4>1.&emsp;If you are not already there, navigate to the <i>basic_agent</i> directory</h4>
 
 ```
