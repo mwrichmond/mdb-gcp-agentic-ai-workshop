@@ -59,3 +59,25 @@ Verify the new files in the directory.
 ```
 ls -lgoa
 ```
+
+<pre>
+total 32
+-rw-r--r--@  1    20 Jul 27 15:14 __init__.py
+drwxr-xr-x@  4   128 Jul 27 15:20 __pycache__/
+drwxr-xr-x@  7   224 Jul 28 16:16 ./
+drwxr-xr-x@ 12   384 Jul 28 10:35 ../
+-rw-r--r--@  1   143 Jul 28 12:20 .env
+-rw-r--r--@  1   415 Jul 28 16:12 agent.py
+-rw-r--r--@  1   679 Jul 28 12:02 custom_functions.py
+</pre>
+
+<h4>4.&emsp;Test the updated agent</h4>
+<br/>
+<p>Navigate one level up to the parent directory - <i>adk_agents</i> - and start the ADK web UI</p>
+
+```
+cd ..
+adk web
+```
+
+Open a browser window to&nbsp;<a href=127.0.0.1:8000>http://127.0.0.1:8000</a>&nbsp;and test the agent.
