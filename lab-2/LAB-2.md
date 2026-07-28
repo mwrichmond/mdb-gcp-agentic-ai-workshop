@@ -32,9 +32,19 @@ CF_API_KEY=9371a7239bbe4164bcac58df4b0867e9
 ```
 curl -O https://raw.githubusercontent.com/mwrichmond/mdb-gcp-agentic-ai-workshop/refs/heads/main/src/adk_agents/basic_agent/custom_functions.py
 ```
-<br/><br/>
+<br/>
+
+<pre>
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   679  100   679    0     0   7780      0 --:--:-- --:--:-- --:--:--  7804
+</pre>
+
+<p>
+Verify the new files in the directory.
+</p>
 
 ```
-adk create basic_agent
+ls -la
 ```
 
