@@ -89,4 +89,4 @@ cd ..
 adk web
 ```
 
-<p>Open a browser window to <a href="127.0.0.1:8000"></a> and test the agent.></p>   <a href="SETUP.md">SETUP.md</a> 
+Open a browser window to&nbsp;<a href=127.0.0.1:8000>http://127.0.0.1:8000</a>&nbsp;and test the agent.
