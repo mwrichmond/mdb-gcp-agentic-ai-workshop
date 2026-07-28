@@ -18,7 +18,7 @@ CF_API_KEY=<YOUR_CURRENCY_FREAKS_API_KEY>
 
 <h4>3.&emsp;Copy the <i>custom_functions.py</i> file into the <i>basic_agent</i> directory</h4>
 
-<p>Navigate to <a href="../src/adk_agents/basic_agent/custom_functions.py"><i>custom_functions.py</i></a> in the <i>src</i> directory.
+<p>Navigate to <a href="../src/adk_agents/basic_agent/custom_functions.py"><i>custom_functions.py</i></a> in the <i>src</i> directory of this repository
 </p>
 Click the Raw button at the top right of the code view to open the plain text version.  
 
