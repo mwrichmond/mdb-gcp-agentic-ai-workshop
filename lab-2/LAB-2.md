@@ -9,11 +9,10 @@
 cd basic_agent
 ```
 
-<h4>2.&emsp;Overwrite the current <i>.env</i> with the one from the Github repository.
-
+<h4>2.&emsp;Edit the <i>.env</i> file; adding the line below:
 
 ```
-
+CF_API_KEY=9371a7239bbe4164bcac58df4b0867e5
 ```
 
 
