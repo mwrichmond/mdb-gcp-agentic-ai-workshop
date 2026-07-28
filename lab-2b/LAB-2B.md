@@ -18,7 +18,7 @@ curl -O https://raw.githubusercontent.com/mwrichmond/mdb-gcp-agentic-ai-workshop
 
 <pre>
  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
+                                Dload  Upload   Total   Spent    Left  Speed
 100   415  100   415    0     0   4897      0 --:--:-- --:--:-- --:--:--  4940
 </pre>
 
@@ -50,8 +50,12 @@ https://raw.githubusercontent.com/mwrichmond/mdb-gcp-agentic-ai-workshop/refs/he
 
  <pre>
    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
+                                  Dload  Upload   Total   Spent    Left  Speed
 100   374  100   374    0     0   3221      0 --:--:-- --:--:-- --:--:--  3224 
  </pre>
 
+Verify the new files in the directory.
+
+```
 ls -lgoa
+```
