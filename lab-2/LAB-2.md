@@ -18,7 +18,8 @@ CF_API_KEY=<YOUR_CURRENCY_FREAKS_API_KEY>
 
 </p> when completed your file should resemble the one below (the API key will be different)</p>
 
-<pre>GOOGLE_GENAI_USE_ENTERPRISE=1
+<pre>
+GOOGLE_GENAI_USE_ENTERPRISE=1
 GOOGLE_CLOUD_PROJECT=matt-richmond
 GOOGLE_CLOUD_LOCATION=us-central1
 CF_API_KEY=9371a7239bbe4164bcac58df4b0867e9
