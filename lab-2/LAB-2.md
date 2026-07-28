@@ -22,7 +22,13 @@ CF_API_KEY=<YOUR_CURRENCY_FREAKS_API_KEY>
 
 <p>Click the Raw button at the top right of the code view to open the plain text version.&emsp;An new URL will be displayed as shown below: </p>
 
+<img width="1113" height="50" alt="image" src="https://github.com/user-attachments/assets/418f59d4-073f-4ece-8a29-2950277fe7eb" />
 
+Back in the terminal window - which should still be <i>basic_agent</i> - paste and execute the command below:
+
+```
+
+```
 
 Copy the URL from the address bar
 
