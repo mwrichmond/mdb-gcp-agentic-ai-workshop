@@ -16,7 +16,7 @@ cd basic_agent
 CF_API_KEY=<YOUR_CURRENCY_FREAKS_API_KEY>
 ```
 
-</p> when completed your file should resemble the one below (the API key will be different)</p>
+</p> When completed your file should resemble the one below (the API key will be different)</p>
 
 <pre>
 GOOGLE_GENAI_USE_ENTERPRISE=1
