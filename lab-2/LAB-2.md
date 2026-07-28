@@ -38,3 +38,14 @@ Verify the new files in the directory.
 ls -la
 ```
 
+<pre>
+total 36
+-rw-r--r--@  1    20 Jul 27 15:14 __init__.py
+drwxr-xr-x@  4   128 Jul 27 15:20 __pycache__/
+drwxr-xr-x@  9   288 Jul 28 15:23 ./
+drwxr-xr-x@ 12   384 Jul 28 10:35 ../
+-rw-r--r--@  1   143 Jul 28 12:20 .env
+-rw-r--r--@  1   252 Jul 27 15:20 agent.py
+-rw-r--r--@  1   679 Jul 28 12:02 custom_functions.py
+</pre>
+
