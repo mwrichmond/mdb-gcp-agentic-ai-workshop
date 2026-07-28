@@ -42,15 +42,16 @@ drwxr-xr-x@ 12   384 Jul 28 10:35 ../
 
 
 
-4. Replace the existing agent.py with the one from the lab-3/src folder in the Github repository
+4. Replace the existing agent.py with the one from the lab-2b/src folder in the Github repository
 
 ```
-
+https://raw.githubusercontent.com/mwrichmond/mdb-gcp-agentic-ai-workshop/refs/heads/main/lab-2b/src/adk_agents/basic_agent/agent.py
 ```
 
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+ <pre>
+   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100   374  100   374    0     0   3221      0 --:--:-- --:--:-- --:--:--  3224
-Verify the new files in the directory.
+100   374  100   374    0     0   3221      0 --:--:-- --:--:-- --:--:--  3224 
+ </pre>
 
 ls -lgoa
