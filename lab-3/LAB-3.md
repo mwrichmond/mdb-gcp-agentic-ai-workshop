@@ -5,15 +5,30 @@
 This Lab will involve creating a 3rd agent tool - a MongoDB MCP server - where the code for the tool is not configured
 in a separate file; rather it is embedded "inline" into the <i>agent.py</i> file.  
 
-How does this work?  Let's take a look.  The <i>agent.py</i> code is shown below:
-<br/>
+<p>How does this work?&nbsp;&nbsp;Let's take a look.&nbsp;&nbsp;The lab-3 <i>agent.py</i> code is shown below:</p>
 <br/>
 <div>
 <img width="820" height="717" alt="image" src="https://github.com/user-attachments/assets/dcf6225d-6509-4640-af1c-1216922bda9d" />
 </div>
+<br/>
+<p>OK.&nbsp;&nbsp;Other than some new required imports on lines 5-8; the real code starts at line 17.</p>
+
+<p>Without going too deep into the weeds here; what we are doing is spawning a nodejs sub-process (the MongoDB MCP Server) on localhost
+when the ADK agent starts up (i.e. a user executes the "adk web" command).  
+ 
+The easy way to think about this is that on agent startup and after lines 17 - 31 execute there will be a running nodejs process on your 
+localhost.  At this point the MongoDB MCP Server has successfully authenticated to an Atlas cluster and all of the available MongoDB commands
+have been registered as tools with the LLM.
+
+The process sits idle until it is actually invoked by the LLM.  It is a stateful session if you will so it remains available for use at any 
+turn in the agent:user interaction cycle.
+
+When the adk web process terminates (usually via a CTRL-C) the ADK backend will gracefully terminate the node process on localhost.
 
 
 <h4>1.&emsp;If you are not already there, navigate to the <i>basic_agent</i> directory</h4>
+
+
 
 ```
 cd basic_agent
