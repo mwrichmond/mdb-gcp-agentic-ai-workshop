@@ -2,16 +2,16 @@
 
 ### Create a Python wrapper function to call native Google Search
 
-<h4>1.&emsp;If you are not already there, navigate to the <i>basic_agent</i> directory</h4>
+
+**1.&emsp;If you are not already there, navigate to the** `basic_agent` **directory.**
 
 ```
 cd basic_agent
 ```
 
-#### 2.&emsp;Replace the <code><small>custom_agents.py</small></code> file from the /lab-2b/src/adk_agents/basic_agent</code> folder into your <i>basic_agent</i> directory</h4>
+**2.&emsp;Replace the current** <i>`custom_agents.py`</i> **file**
 
-Copy the <code><small>custom_agents.py</small></code> file from the `/lab-2b/src/adk_agents/basic_agent` folder into your basic_agent directory
-<h5> Copy the</h5>
+Use the command below to overwrite the <i>`custom_agents.py`</i> file.
 
 ```
 curl -O https://raw.githubusercontent.com/mwrichmond/mdb-gcp-agentic-ai-workshop/refs/heads/main/lab-2b/src/adk_agents/basic_agent/custom_agents.py
