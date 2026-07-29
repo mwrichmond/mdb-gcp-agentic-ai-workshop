@@ -25,7 +25,7 @@ turn in the agent:user interaction cycle.
 
 When the adk web process terminates (usually via a CTRL-C) the ADK backend will gracefully terminate the node process on localhost.
 
-1.&emsp;If you are not already there, navigate to the** `basic_agent` directory.
+1.&emsp;If you are not already there, navigate to the `basic_agent` directory.
 
 ```
 cd basic_agent
