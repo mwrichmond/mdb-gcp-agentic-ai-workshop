@@ -5,7 +5,9 @@
 This Lab will involve creating a 3rd agent tool - a MongoDB MCP server - where the code for the tool is not configured
 in a separate file; rather it is embedded "inline" into the <i>agent.py</i> file.  
 
-How does this work?  Let's take a look.  The code is shown below:
+How does this work?  Let's take a look.  The <i>agent.py</> code is shown below:
+
+
 
 
 
