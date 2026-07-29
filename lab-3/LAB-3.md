@@ -7,8 +7,24 @@ in a separate file; rather it is embedded "inline" into the <i>agent.py</i> file
 
 How does this work?  Let's take a look.  The code is shown below:
 
-```{.r filename="/lab-3/src/adk_agents/basic_agent/agent.py" startFrom=1}
-```
+
+
+
+<div>
+ <code>
+1  from google.adk.agents import Agent
+2  from google.adk.tools import FunctionTool
+3  from google.adk.tools.agent_tool import AgentTool
+4  from .custom_functions import get_fx_rate
+5  from .custom_agents import google_search_agent
+6
+7  root_agent = Agent(
+</code>
+</div>
+
+
+
+
 
 
 <h4>1.&emsp;If you are not already there, navigate to the <i>basic_agent</i> directory</h4>
