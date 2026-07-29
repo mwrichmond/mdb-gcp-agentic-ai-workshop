@@ -31,6 +31,6 @@ root_agent = Agent(
                 ),
                 timeout=60,
             ),
-        )
-    ],
+        ),
+    ]
 )
