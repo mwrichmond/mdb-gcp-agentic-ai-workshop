@@ -11,8 +11,6 @@ cd basic_agent
 
 **2.&emsp;Replace the current** <i>`custom_agents.py`</i> **file**
 
-Use the command below to overwrite the <i>`custom_agents.py`</i> file.
-
 ```
 curl -O https://raw.githubusercontent.com/mwrichmond/mdb-gcp-agentic-ai-workshop/refs/heads/main/lab-2b/src/adk_agents/basic_agent/custom_agents.py
 ```
