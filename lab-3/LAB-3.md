@@ -7,15 +7,7 @@ in a separate file; rather it is embedded "inline" into the <i>agent.py</i> file
 
 How does this work?  Let's take a look.  The code is shown below:
 
-```{.r startFrom="1"}
-from google.adk.agents import Agent
-from google.adk.tools import FunctionTool
-from google.adk.tools.agent_tool import AgentTool
-from .custom_functions import get_fx_rate
-from .custom_agents import google_search_agent
-
-root_agent = Agent(
-    model='gemini-2.5-flash',
+```{.r filename="/lab-3/src/adk_agents/basic_agent/agent.py" startFrom=1}
 ```
 
 
