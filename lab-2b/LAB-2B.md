@@ -2,7 +2,6 @@
 
 ### Create a Python wrapper function to call native Google Search
 
-
 **1.&emsp;If you are not already there, navigate to the** `basic_agent` **directory.**
 
 ```
