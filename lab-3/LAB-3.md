@@ -20,8 +20,8 @@ The easy way to think about this is that on agent startup after lines 17 - 31 ex
 localhost.  At this point the MongoDB MCP Server has successfully authenticated to an Atlas cluster and all of the available MongoDB commands
 have been registered as tools with the LLM.
 
-The process sits idle until it is actually invoked by the LLM.  It is a stateful session if you will so it remains available for use at any 
-turn in the agent:user interaction cycle.
+The process sits idle until it is actually invoked by the LLM.  It is stateful session so it remains available for use at any turn in the
+agent:user interaction cycle.
 
 When the adk web process terminates (usually via a CTRL-C) the ADK backend will gracefully terminate the node process on localhost.
 
@@ -31,19 +31,11 @@ When the adk web process terminates (usually via a CTRL-C) the ADK backend will 
 cd basic_agent
 ```
 
-**2.&emsp;Replace the current** <i>`custom_agents.py`</i> **file**
+**2.&emsp;Replace the current** <i>`agent.py`</i> **file**
 
 ```
-curl -O https://raw.githubusercontent.com/mwrichmond/mdb-gcp-agentic-ai-workshop/refs/heads/main/lab-3/src/adk_agents/basic_agent/custom_agents.py
+curl -O https://raw.githubusercontent.com/mwrichmond/mdb-gcp-agentic-ai-workshop/refs/heads/main/lab-3/src/adk_agents/basic_agent/agent.py
 ```
-
-
-<h4>2.&emsp;Copy the <i>agents.py</i> file from the Github repository into the <i>basic_agent</i> directory</h4>
-
-```
-
-```
-<br/>
 
 <pre>
  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
