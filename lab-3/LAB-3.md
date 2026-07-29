@@ -25,14 +25,18 @@ turn in the agent:user interaction cycle.
 
 When the adk web process terminates (usually via a CTRL-C) the ADK backend will gracefully terminate the node process on localhost.
 
-
-<h4>1.&emsp;If you are not already there, navigate to the <i>basic_agent</i> directory</h4>
-
-
+1.&emsp;If you are not already there, navigate to the** `basic_agent` directory.
 
 ```
 cd basic_agent
 ```
+
+**2.&emsp;Replace the current** <i>`custom_agents.py`</i> **file**
+
+```
+curl -O https://raw.githubusercontent.com/mwrichmond/mdb-gcp-agentic-ai-workshop/refs/heads/main/lab-3/src/adk_agents/basic_agent/custom_agents.py
+```
+
 
 <h4>2.&emsp;Copy the <i>agents.py</i> file from the Github repository into the <i>basic_agent</i> directory</h4>
 
