@@ -5,28 +5,11 @@
 This Lab will involve creating a 3rd agent tool - a MongoDB MCP server - where the code for the tool is not configured
 in a separate file; rather it is embedded "inline" into the <i>agent.py</i> file.  
 
-How does this work?  Let's take a look.  The <i>agent.py</> code is shown below:
-
-
-
-
-
-
+How does this work?  Let's take a look.  The <i>agent.py</i> code is shown below:
+<br/>
 <div>
- <code>
-1  from google.adk.agents import Agent
-2  from google.adk.tools import FunctionTool
-3  from google.adk.tools.agent_tool import AgentTool
-4  from .custom_functions import get_fx_rate
-5  from .custom_agents import google_search_agent
-6
-7  root_agent = Agent(
-</code>
+<img width="820" height="717" alt="image" src="https://github.com/user-attachments/assets/dcf6225d-6509-4640-af1c-1216922bda9d" />
 </div>
-
-
-
-
 
 
 <h4>1.&emsp;If you are not already there, navigate to the <i>basic_agent</i> directory</h4>
