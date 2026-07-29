@@ -40,8 +40,7 @@ drwxr-xr-x@ 12   384 Jul 28 10:35 ../
 </pre>
 
 
-
-<h4>3.&emsp;Replace the existing <i>agent.py</i> with the one from the lab-2b/src folder in the Github repository</h4>
+**3.&emsp;Replace the current** <i>`agents.py`</i> **file**
 
 ```
 curl -O https://raw.githubusercontent.com/mwrichmond/mdb-gcp-agentic-ai-workshop/refs/heads/main/lab-2b/src/adk_agents/basic_agent/agent.py
@@ -71,8 +70,8 @@ drwxr-xr-x@ 12   384 Jul 28 10:35 ../
 </pre>
 
 <h4>4.&emsp;Test the updated agent</h4>
-<br/>
-<p>Navigate one level up to the parent directory - <i>adk_agents</i> - and start the ADK web UI</p>
+
+Navigate one level up to the parent directory `adk_agents` and start the ADK web UI
 
 ```
 cd ..
