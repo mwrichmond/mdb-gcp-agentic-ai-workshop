@@ -7,6 +7,7 @@ in a separate file; rather it is embedded "inline" into the <i>agent.py</i> file
 
 How does this work?  Let's take a look.  The <i>agent.py</i> code is shown below:
 <br/>
+<br/>
 <div>
 <img width="820" height="717" alt="image" src="https://github.com/user-attachments/assets/dcf6225d-6509-4640-af1c-1216922bda9d" />
 </div>
