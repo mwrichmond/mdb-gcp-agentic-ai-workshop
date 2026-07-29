@@ -59,14 +59,17 @@ drwxr-xr-x@ 12   384 Jul 28 10:35 ../
 -rw-r--r--@  1   374 Jul 28 16:12 agent.py
 -rw-r--r--@  1   415 Jul 28 18:09 custom_agents.py
 -rw-r--r--@  1   679 Jul 28 12:02 custom_functions.py
+</pre>
 
  <h4>3.&emsp;Test the updated agent</h4>
 
 Navigate one level up to the parent directory `adk_agents` and start the ADK web UI
 
+
 ```
 cd ..
-adk web
+adk web 
 ```
 
+ 
 Open a browser window to&nbsp;<a href=127.0.0.1:8000>http://127.0.0.1:8000</a>&nbsp;and test the agent.
