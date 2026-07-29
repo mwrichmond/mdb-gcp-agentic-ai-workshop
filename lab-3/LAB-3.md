@@ -16,7 +16,7 @@ in a separate file; rather it is embedded "inline" into the <i>agent.py</i> file
 <p>Without going too deep into the weeds here; what we are doing is spawning a nodejs sub-process (the MongoDB MCP Server) on localhost
 when the ADK agent starts up (i.e. a user executes the "adk web" command).  
  
-The easy way to think about this is that on agent startup and after lines 17 - 31 execute there will be a running nodejs process on your 
+The easy way to think about this is that on agent startup after lines 17 - 31 execute; there will be a running nodejs process on your 
 localhost.  At this point the MongoDB MCP Server has successfully authenticated to an Atlas cluster and all of the available MongoDB commands
 have been registered as tools with the LLM.
 
@@ -37,7 +37,7 @@ cd basic_agent
 <h4>2.&emsp;Copy the <i>agents.py</i> file from the Github repository into the <i>basic_agent</i> directory</h4>
 
 ```
-curl -O https://raw.githubusercontent.com/mwrichmond/mdb-gcp-agentic-ai-workshop/refs/heads/main/lab-2b/src/adk_agents/basic_agent/custom_agents.py
+
 ```
 <br/>
 
